@@ -1,0 +1,51 @@
+// Name = Majid Ali
+// Sap ID = 5000020281
+// Assigment = 01
+#include <iostream>
+using namespace std;
+int main()
+{
+	//........Personal information.........
+	int age;
+	double cgpa;
+	char grade;
+	int failedlogins;
+	
+	//.........constant........
+	const int MAX_FAILED_LOGINS = 5;
+	
+	//......Input.......
+	cout << "Enter your age (intager) \t \t: ";
+	cin >> age;
+	cout << "Enter your CGPA (decimals) \t \t: ";
+	cin >> cgpa;
+	cout << "Enter your grade (single character) \t \t:";
+	cin >> grade;
+	cout << "Enter number of failed login attempts \t \t:";
+	cin >> failedlogins;
+	cout <<endl;
+	
+	// ........Display neatly using \n and \t..........
+	cout <<"\n ======= Student Digital Profile =======\n";
+	cout << "Age \t \t: " <<age << "\n";
+	cout << "CGPA \t \t: " << cgpa << "\n";
+	cout << "Grade \t \t:" << grade << "\n";
+	cout << "Failed Logins \t: " << failedlogins << "\n";
+	cout << "\n";
+	
+	//......... Experiment .......
+	int total = 9;
+	int count = 2;
+	
+	cout << "\n --- Experiment with total = 9 --- \n";
+	cout << "total / count = " << total / count << endl;
+	cout << "static_cast<double>(total) / count = "
+	<< static_cast<double>(total) / count << endl;
+	
+	//......... Change Total.......
+//	cout << "\n--- Experiment with total = 10 + " << lastdigit << " = " << total << "----\n";
+	cout << "total / count = " << total / count << endl;
+	cout << "static_cast<double>(total) / count = "
+	<< static_cast<double>(total) / count << endl;
+	return 0;
+}
