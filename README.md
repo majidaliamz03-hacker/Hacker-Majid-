@@ -1,4 +1,4 @@
-# Hacker-Majid
+# C++
 This my first Git Repository.
 <br>
 Author - Majid Ali
